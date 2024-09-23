@@ -7,8 +7,8 @@ import InvoiceActions from '../components/InvoiceActions';
 const InvoiceGenerator = () => {
   const [customer, setCustomer] = useState({ name: '', email: '', address: '' });
   const [items, setItems] = useState([{ description: '', quantity: 1, price: 0 }]);
-  const [tax, setTax] = useState(10);
-  const [discount, setDiscount] = useState(5);
+  const [tax, ] = useState(10);
+  const [discount,] = useState(5);
 
   return (
     <div className="invoice-generator">
